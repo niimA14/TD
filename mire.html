@@ -7,11 +7,14 @@
         <nav>
         <ul>
             <li id="home">home</li>
-            <li class="home">form</li>
+            <li class="home"> <a href="3page.html">form</a></li>
             <li class="home">about</li>
             </ul>
                  </nav>
-            <h1>welcome to mire international school</h1>
+            <h1><div id="to"> welcome to</div><br /><div> mire international school</div>
+              <a href="3page.html">  <button>see more</button> </a>
+            
+            </h1>
             
 
         </body>
@@ -39,9 +42,9 @@
 
         h1{
             position:absolute;
-            top:300px;
-            left:30px;
-           size:20px;
+            top:500px;
+            left:100px;
+           font-size:50px;
         }
        
 
@@ -57,9 +60,44 @@
         }
 
 li:hover{ 
-    color:firebrick;
-
+    color:white;}
+div{
+   color:white;
 }
+#to{
+    position: absolute;
+    left:120px;
+}
+.home{
+    color:firebrick
+}
+#home{
+    color:rgb(255, 255, 255);
+}
+#home:hover{
+    color:firebrick;
+}
+
+button{
+    position: absolute;
+    left:190px;
+    padding:10px;
+    background-color: black;
+    color:white
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+:any-link{
+   text-decoration: none;
+   color:firebrick;
+}
+:any-link:hover{
+    color: white;
+}
+
 
     </style>
 </head>
